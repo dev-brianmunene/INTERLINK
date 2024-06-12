@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background: rgb(0,0,0,0.7);
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background: #fff;  
+}
+.section_1{
+    display: flex;
+    align-items: center;
+    height: 82vh;
+    background: #f2f2f2;
+}
+.navigation .part_1{
+    display: flex;
+    gap: 30px;
+    color: #97a7b7;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.navigation .part_2{
+    display: inline-flex;
+    gap: 30px;
+    color: #fff;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.navigation .part_2 .login{
+    outline: none;
+    border: none;
+    color: #97a7b7;
+    background: transparent;
+    font-size: 1.2rem;
+}
+.navigation .part_2 .start{
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #e9490f;
+    font-size: 1.2rem;
+    height: 8vh;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+nav .logo h2{
+    font-size: 2rem;
+    color:#e9490f;
+}
+nav .ul_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+    color: #333;
+}
+nav .ul_links li{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 550;
+}
+/*short explanation*/
+.short_explanation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/trans6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    overlay: rgb(0,0,0,0.3);
+}
+.short_explanation .explanation_row{
+    flex-basis: auto;
+    max-width: 900px;
+
+}
+.short_explanation .explanation_row p{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    
+}
+.short_explanation .explanation_row .par{
+    color:white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.short_explanation .explanation_row h1{
+    font-size: 3rem;
+    color: #e9490f;
+    margin-bottom: 10px;
+}
+.support{
+    display: flex;
+}
+.support .btn{
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background: #e9490f;
+    font-size: 1.1rem;
+    
+}
+/*membership rates*/
+.wrapper_explainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.wrapper_explainer p{
+    font-size: 1.1rem;
+    color: grey;
+}
+.wrapper_explainer h1{
+    color: #333;
+    font-size: 2.5rem;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+    color: rgba(0,0,0,0.7);
+}
+.wrapper .card{
+    max-width: 350px;
+    background-color: #fff;
+    padding: 40px ;
+    margin: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px -1px rgba(10,99,169,0.16), 3px 3px 10px -1px rgba(255,255,255,0.7);
+}
+.wrapper .card h3{
+    margin-bottom: 15px;
+
+}
+/*for active class*/
+/*no space, scale increases the card size*/
+.wrapper .card.active{
+    background-color: #e9490f;
+    transform: scale(1,1.09);
+    
+}
+.wrapper .card.active h3{
+    color: white;   
+}
+.wrapper .card.active h1{
+    color: white;   
+}
+.wrapper .card.active p{
+    color: white;   
+}
+.wrapper .card.active span{
+    color: white;   
+}
+.wrapper .card.active li{
+    color: white;   
+}
+.wrapper .card.active a{
+    background-color: white;
+    color: #e9490f;   
+}
+.wrapper .card.active a:hover{
+    background-color: #e9490f;
+    color: white;
+    border-radius: 5px;
+}
+.wrapper .card.active a{
+    border: 1px solid white;
+}
+.wrapper .card.active a:hover{
+    border: 1px solid white;
+}
+
+/*for active class*/
+
+.wrapper .card h1{
+    margin-bottom: 10px;
+    color: rgba(0,0,0,1);
+    font-size: 2.5rem;
+
+}
+/*The span is useful in reduction of text size and change of color nested in h1*/
+.wrapper .card h1 span{
+    font-size: 17px;
+    color: rgba(0,0,0,0.7);
+
+}
+/*The rgba displays the relevant color and useful in opacity reduction*/
+.wrapper .card p{
+    margin: 20px 0;
+    color: rgba(0,0,0,0.6);
+    font-size: 15px;
+    line-height: 1.5px;
+}
+/*The line height creates spacing from top and bottom of a single line*/
+.wrapper .card li{
+    list-style: none;
+    line-height: 3;
+    color: rgba(0,0,0,0.9);
+}
+.wrapper .card ul li i{
+    /*the margin-right here creates space between the icon and the text*/
+    margin-right: 10px;
+    color: rgba(0,0,0,0.4);
+
+}
+.wrapper .card a{
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #e9490f;
+    border-radius: 5px;
+    color: #e9490f;
+    padding: 15px;
+    font-weight: bold;
+    transition: 0.4s;
+
+}
+.wrapper .card a:hover{
+    background-color: #e9490f;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+

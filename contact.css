@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contact_section{
+    width: 100%;
+}
+.contact_section .contact_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact_section .contact_container .contact_card_2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 600px;
+    height: 80vh;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(10,99,169,0.16), 3px 3px 10px -1px rgba(255,255,255,0.5);
+}
+.contact_section .contact_container .contact_card_2 #name{
+    width: 400px;
+    outline: none;
+    border: 1px solid grey;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.contact_section .contact_container .contact_card_2 #email{
+    width: 400px;
+    outline: none;
+    border: 1px solid grey;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.contact_section .contact_container .contact_card_2 #subject{
+    width: 400px;
+    outline: none;
+    border: 1px solid grey;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.contact_section .contact_container .contact_card_2 #message{
+    width: 400px;
+    outline: none;
+    border: 1px solid grey;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-rendering: auto;
+
+}
+.contact_section .contact_container .contact_card_2 .send{
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 50px;
+    background: #e9490f;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.contact_section .contact_container .contact_card_1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_section .contact_container .contact_card_1 h1{
+    font-size: 1.5rem;
+    color: #333;
+}
+.contact_section .contact_container .contact_card_1 p{
+    color: #e9490f;
+    font-size: 1.1rem;
+}
+.contact_section .contact_container .contact_card_1 #special{
+    color: rgb(0, 0, 0,0.7);
+}
+.contact_section .contact_container .contact_card_1 #separate{
+    margin-top: 20px;
+}
+.contact_section .contact_container .contact_card_1 #separate span{
+    color: rgb(0, 0, 0,0.7);
+}
+
+
+
+
