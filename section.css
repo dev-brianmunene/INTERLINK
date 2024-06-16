@@ -88,7 +88,7 @@ nav .ul_links li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/trans6.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(trans6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     overlay: rgb(0,0,0,0.3);
