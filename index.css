@@ -100,7 +100,7 @@ nav .ul_links li a:active{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 600px;
+    max-width: 50%;
     gap: 10px;
 }
 .section_1 .col_1 span{
@@ -152,14 +152,14 @@ nav .ul_links li a:active{
 }
 .section_1 .col_2{
     width: 100%;
-    max-width: 600px;
+    max-width: 50%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 .section_1 .col_2 img{
     width: 100%;
-    max-width: 600px;
+    max-width: 50%;
     max-height: 80vh;
     
 }
@@ -248,7 +248,7 @@ nav .ul_links li a:active{
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #f2f2f2;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: auto;
     
 }
 .short_list .card_1{
@@ -309,7 +309,7 @@ nav .ul_links li a:active{
 .how_it_works .how_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 1200px;
+    max-width: auto;
     margin: 0 auto;
     background: #fff;
     padding: 25px;
@@ -362,7 +362,7 @@ nav .ul_links li a:active{
 .customer_reviews .review_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 1200px;
+    max-width: auto;
     margin: auto;
     
 }
@@ -417,7 +417,7 @@ nav .ul_links li a:active{
     justify-content: space-between;
     padding-top: 40px;
     width: 100%;
-    max-width: 1200px;
+    max-width: auto;
 
 }
 .footer .quicklinks{
